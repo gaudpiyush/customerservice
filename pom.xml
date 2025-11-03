@@ -75,6 +75,12 @@
             <artifactId>postgresql</artifactId>
             <version>42.7.7</version>
         </dependency>
+        <!--        custome dependency of commons-dto-->
+        <dependency>
+            <groupId>com.commons</groupId>
+            <artifactId>dto</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
