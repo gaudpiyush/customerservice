@@ -1,0 +1,5 @@
+<configuration scan="true">
+    <!-- If the lib packaged it at the classpath root -->
+    <include resource="logback-base.xml"/>
+
+</configuration>
