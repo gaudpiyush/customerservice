@@ -76,4 +76,8 @@ public class CustomerService {
     public boolean exists(String externalId) {
         return repository.findByExternalId(externalId).isPresent();
     }
+
+    public boolean existsByEmail(String email){
+        return repository.findByEmail(email).isPresent();
+    }
 }

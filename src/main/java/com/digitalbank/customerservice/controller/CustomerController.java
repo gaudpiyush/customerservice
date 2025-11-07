@@ -51,4 +51,9 @@ public class CustomerController {
     public boolean exists(@PathVariable String externalId){
         return service.exists(externalId);
     }
+
+    @GetMapping("/customers/exists")
+    public ResponseEntity<Boolean> existsByEmail(@RequestParam String email){
+        return ResponseEntity.ok(service.existsByEmail(email));
+    }
 }
